@@ -45,8 +45,8 @@ const ProjectsSection: React.FC = () => {
       logo: '/lev.svg',
     },
     {
-      title: 'Levana Carier Consulting',
-      subtitle: '10+ Murid berhasil diterima kerja',
+      title: 'UGC Creator',
+      subtitle: '3 Campaign terlaksana',
       logo: '/lev.svg',
     },
     {

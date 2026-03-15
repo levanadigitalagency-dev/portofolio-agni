@@ -31,7 +31,8 @@ const HeroSection = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-gray-600 text-sm md:text-base lg:text-lg leading-relaxed max-w-md mx-auto lg:mx-0"
           >
-            Bantu Gen Z keluar dari hidup aman yang bikin stagnan sambil nerima jasa pembuatan website buat bisnis kamu naik kelas.
+            UGC Kreator & Founder Levana Tech <br/>
+            Bantu Gen Z Hasilin Income di industri digital 
           </motion.p>
 
           {/* View My Work Button */}
@@ -58,10 +59,12 @@ const HeroSection = () => {
           <InstagramCard
             name="Agnialatas"
             username="agni.webdev"
-            bio="Passionate web developer helping Gen Z elevate their businesses with stunning websites. Let's create something amazing together! "
+            bio="bantu Gen Z hasilin income di industri digital
+Founder : @levana.tech | 3 years+ in digital industry
+• Endorse/UGC/Collab : DM"
             location='📍West Java, Indonesia.'
             posts={200}
-            followers={25000}
+            followers={10000}
             following={160}
             profileImage="/ppig.png"
             instagramLink="https://www.instagram.com/agniialatas/"
