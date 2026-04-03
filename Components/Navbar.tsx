@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 py-4 md:py-8">
-      <nav className="bg-gray-300 rounded-full px-4 md:px-8 py-3 md:py-4 shadow-lg">
+      <nav className="bg-sky-100 rounded-full px-4 md:px-8 py-3 md:py-4 shadow-lg">
         <div className="flex items-center justify-between gap-4 md:gap-8 lg:gap-12">
           {/* Profile Avatar */}
           <div className="flex-shrink-0">

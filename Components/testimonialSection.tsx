@@ -26,15 +26,15 @@ const TestimonialSection = () => {
     },
     {
       quote:
-        'Mantap Keren banget agni webnya, Banget ngebantu buat ningkatin bisnis Bapa',
+        'Mantap Keren banget agni Chatbotnya, Banget ngebantu buat ningkatin bisnis Bapa',
       name: 'Pak Rully',
-      position: 'Guru SMK',
+      position: 'Guru SMKN 1 Sumedang',
     },
     
   ]
 
   return (
-    <section id="testimoni" className="py-20 px-6 lg:px-16 overflow-hidden">
+    <section id="testimoni" className="py-20 px-6 lg:px-16 overflow-hidden bg-white">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <motion.div 

@@ -6,7 +6,7 @@ import InstagramCard from './InstagramCard'
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center px-6 lg:px-16 py-20 md:py-10 overflow-hidden">
+    <section className="min-h-screen flex items-center px-6 lg:px-16 py-20 md:py-10 overflow-hidden bg-gradient-to-t from-sky-100 via-sky-50 to-white">
       <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Side - Hero Title */}
         <motion.div 
@@ -19,8 +19,8 @@ const HeroSection = () => {
           {/* Main Heading */}
           <div>
             <p className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#6A6A6A] leading-tight">Hello, I Am</p>
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-black leading-tight">
-              Agnia Alatas
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black leading-tight">
+              Agnia Albaitsah
             </h1>
           </div>
 
@@ -31,8 +31,8 @@ const HeroSection = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-gray-600 text-sm md:text-base lg:text-lg leading-relaxed max-w-md mx-auto lg:mx-0"
           >
-            UGC Kreator & Founder Levana Tech <br/>
-            Bantu Gen Z Hasilin Income di industri digital 
+            Chatbot & Web Developer <br/>
+            Membangun solusi chatbot berbasis AI untuk meningkatkan efisiensi bisnis 
           </motion.p>
 
           {/* View My Work Button */}
@@ -59,9 +59,7 @@ const HeroSection = () => {
           <InstagramCard
             name="Agnialatas"
             username="agni.webdev"
-            bio="bantu Gen Z hasilin income di industri digital
-Founder : @levana.tech | 3 years+ in digital industry
-• Endorse/UGC/Collab : DM"
+            bio=""
             location='📍West Java, Indonesia.'
             posts={200}
             followers={10000}

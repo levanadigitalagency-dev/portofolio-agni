@@ -23,7 +23,7 @@ location,
   instagramLink,
 }) => {
   return (
-    <div className="border border-gray-200 rounded-3xl p-6 md:p-8 bg-white w-full max-w-[450px] min-h-[350px] flex flex-col shadow-lg mx-auto">
+    <div className="border border-gray-200 rounded-3xl p-6 md:p-8 bg-white w-full max-w-[450px] min-h-[300px] flex flex-col shadow-lg mx-auto">
       {/* Header Section - Profile and Stats in One Row */}
       <div className="flex items-start gap-4 md:gap-6 mb-6">
         <img
@@ -51,18 +51,10 @@ location,
       </div>
 
       {/* Name Section */}
-      <div className="">
+      <div className="mb-4">
         <h3 className="font-bold text-gray-800 text-lg">{name}</h3>
+        <p className="text-sm text-gray-600 mt-1">{location}</p>
       </div>
-
-      {/* Bio Section */}
-        <div className="mb-2 flex-1 overflow-y-auto">
-          <p className="text-sm text-gray-700 leading-relaxed">
-            {bio}
-            <br />
-            <span className="text-sm text-gray-600">{location}</span>
-          </p>
-        </div>
 
       {/* Action Buttons */}
       <div className="flex gap-3">

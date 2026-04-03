@@ -12,7 +12,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   position,
 }) => {
   return (
-    <div className="bg-white rounded-2xl border-1 border-gray-600 p-6 shadow-sm flex flex-col">
+    <div className="bg-sky-100 rounded-2xl p-6 shadow-md flex flex-col">
       {/* Quote Mark */}
       <div className="text-3xl text-gray-700 mb-3">“</div>
 
