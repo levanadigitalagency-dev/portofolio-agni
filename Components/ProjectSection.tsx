@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import Image from 'next/image'
 
 const ProjectSection = () => {
   const [activeItem, setActiveItem] = useState('AI Automation')
@@ -73,10 +74,12 @@ const ProjectSection = () => {
               </div>
 
               <div className="flex justify-center lg:justify-end">
-                <img
+                <Image
                   src={activePanel.image}
                   alt={`${activeItem} Illustration`}
                   className="w-full max-w-xl rounded-2xl border border-gray-200 shadow-md"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
